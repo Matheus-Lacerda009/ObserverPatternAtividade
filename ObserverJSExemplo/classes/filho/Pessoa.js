@@ -8,7 +8,7 @@ class Pessoa extends Observador{
     }
 
     atualizarInfo(itens){
-        console.log(`Olá ${this.nome}!, seu pedido foi alterado! Nova lista do pedido: ${itens}`);
+        console.log(`Olá ${this.nome}! Seu pedido foi alterado! Nova lista do pedido: ${itens}`);
     }
 }
 
